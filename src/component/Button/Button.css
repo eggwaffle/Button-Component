@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+.Button button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.Button p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border: none;
+  color: #333333;
+}
+
+button:hover, button:focus {
+  background-color: #AEAEAE;
+}
+
+button.outline {
+  border: 1px solid #3D5AFE;
+  background-color: white;
+  box-shadow: none;
+  color: #3D5AFE;
+}
+
+button.outline:hover, button.outline:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+button.text {
+  background-color: white;
+  box-shadow: none;
+  color: #3D5AFE;
+}
+
+button.text:hover, button.text:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+button.disableShadow {
+  box-shadow: none !important;
+}
+
+button.disabled {
+  box-shadow: none !important;
+  color: #9E9E9E !important;
+  pointer-events: none !important;
+}
+
+button.startIcon span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button.endIcon span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button.sm {
+  padding: 6px 12px !important;
+}
+
+button.md {
+  padding: 8px 16px !important;
+}
+
+button.lg {
+  padding: 11px 22px !important;
+}
+
+button.default {
+  background-color: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  color: #3F3F3F;
+}
+
+button.default:hover, button.default:focus {
+  background-color: #AEAEAE;
+}
+
+button.primary {
+  background: #2962FF;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: white;
+}
+button.primary:hover, button.primary:focus {
+  background-color: #0039CB;
+}
+
+button.secondary {
+  background-color: #455A64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+  color: white;
+  text-transform: capitalize;
+}
+button.secondary:hover, button.secondary:focus {
+  background-color: #1C313A;
+}
+
+button.danger {
+  background-color: #D32F2F;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+  color: white;
+  text-transform: capitalize;
+}
+button.danger:hover, button.danger:focus {
+  background-color: #9A0007;
+}

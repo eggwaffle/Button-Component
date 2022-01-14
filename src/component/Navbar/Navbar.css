@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins&display=swap');
+
+.Navbar {
+  background-color: #FAFBFD;
+  height: 100vh;
+  padding: 50px 60px 0;
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+  text-align: left;
+}
+.Logo{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+}
+.Logo h2 b {
+color: #F7542E;
+}
+.List {
+  list-style-type: none;
+}
+.List-item {
+  margin-top: 25px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9E9E9E;
+}
+.Selected {
+  font-weight: 700;
+  color: #090F31;
+}
