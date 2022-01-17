@@ -41,7 +41,7 @@
 
 Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
 
-- Demo: https://responsive-web-dev-challenges.web.app/recipepage/
+- Demo: https://front-end-dev-challenges.web.app/button/
 
 ### Built With
 
